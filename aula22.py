@@ -1,0 +1,11 @@
+# Operadores lógicos OR
+
+entrada = input('[E]ntrar ou [S]air: ')
+senha_digitada = input('Senha: ')
+
+senha_permitida = '123456'
+
+if entrada == 'E' or senha_digitada == senha_permitida:
+    print('Entrar')
+else:
+    print('Sair')
