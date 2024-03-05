@@ -7,7 +7,7 @@ print('-'*10)
 print('vio' not in nome)
 print('zero' in nome)'''
 
-nome = input('Digite seu nome: ').upper([1])
+nome = input('Digite seu nome: ')
 
 encontrar = input('O que você deseja encontar?: ')
 
