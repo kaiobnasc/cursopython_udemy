@@ -2,7 +2,7 @@
 entrada = input('Digite um número: ')
 
 if entrada.isdigit():
-    entrada_int = int(entrada)
+    entrada_int = float(entrada)
     par_impar = entrada_int % 2 == 0
     par_impar_texto = 'ímpar'
 
